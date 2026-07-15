@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=80.9.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docassemble.SoleRepoWithNoCollaborator"
+version = "0.0.1"
+description = "ALKilnSetup tests for a docassemble package repo owned by a single user and no collaborators"
+readme = "README.md"
+authors = [
+    { name = "", email = "66677730+alkilnert@users.noreply.github.com" },
+]
+dependencies = []
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+
+[project.urls]
+Homepage = "https://docassemble.org"
+
+[tool.setuptools.packages.find]
+where = [
+    ".",
+]
